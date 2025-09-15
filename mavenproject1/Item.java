@@ -9,10 +9,12 @@ package com.mycompany.mavenproject1;
  * @author User
  */
 public class Item {
+    public int item_id;
     private String name;
     private double price;
     
-    public Item(String name, double price){
+    public Item(int item_id, String name, double price){
+        this.item_id = item_id;
         this.name = name;
         this.price = price;
     }
